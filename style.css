@@ -1,0 +1,280 @@
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Alice', serif;
+	color: rgb(255, 255, 255);
+
+}
+.full-page
+{
+	height: 180%;
+	width: 100%;
+	background-image: url(www.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	text-align: center;
+	
+	
+}
+.navbar
+{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 50px;
+
+}
+
+nav
+{
+	flex: 1;
+	text-align: right;
+}
+nav ul 
+{
+	float: right;
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	padding-left: 20px
+	
+}
+nav ul li 
+{
+	display: inline-block;
+	margin-right: 70px;
+}
+nav ul li a 
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: rgb(240, 249, 244);
+	font-family: sans-serif;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav ul li button:hover
+{
+	color: rgb(23, 78, 57);
+}
+nav ul li a:hover 
+{
+	background: rgb(32, 211, 101);
+	border-radius: 6px;
+}
+.a 
+{
+	text-decoration: none;
+	color: rgb(0, 69, 25);
+	font-size: 50px;
+	font-family: 'Alice', serif;
+}
+span
+{
+	color: rgb(202, 201, 201);
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+*
+.about{
+	width: 100%;
+	padding: 78px 0px;
+	background-color:#d66fc3 ;
+}
+.about-text{
+	width: 500px;
+}
+.main{
+	width: 1130px;
+	max-width: 95px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about img
+{
+	height: auto;
+	width: 420px;
+	background-image: url(/Users/DepED/Documents/zydda/heroes.jpg);
+}
+.mobile{
+	padding-right: 20px;
+	padding-left: 60px;
+	padding-bottom: 250px;
+	padding-top: 50px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: xx-large;
+	background-color: rgba(0, 0, 0, 0.788);
+	border-width: 100%;
+	
+
+	
+	
+	
+}
+.text{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom:0px;
+	font-size: large;
+	text-transform: initial;
+	background-color:rgba(10, 9, 11, 0.878);
+	
+	
+
+}
+.home-text{
+	text-align: center;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: x-large;
+	align-items: baseline;
+	color: rgb(255, 253, 253);
+	background-color: rgba(107, 54, 54, 0.584);
+	text-transform: capitalize;
+	font-style: italic;
+	font-family: 'IBM Plex Serif', serif;
+
+	
+	
+}
+.contactus{
+	text-align: center;
+	font-size: small;
+	align-items: baseline;
+	color: rgb(255, 255, 255);
+	padding-top: 120px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 650px;
+	text-transform: uppercase;
+	background-color:rgba(10, 9, 11, 0.878);
+	height: 100px;
+	
+
+}
+.install{
+	text-align: center;
+	padding-top: 100px;
+	font-size: larger;
+	padding-bottom: 900px;
+	padding-left: 100px;
+	padding-right: 110px;
+	text-emphasis: none;
+	background-color:rgba(10, 9, 11, 0.878);
+	height: 150px;
+	align-items: baseline;
+	font-style: italic;
+	
+
+}
+.click{
+	padding-bottom: 80px;
+	text-align: center;
+	
+	
+}
+.tjk{
+	font-size: small;
+	text-align: justify;
+	background-color:rgba(10, 9, 11, 0.878);
+	padding: 20px;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+.pow{
+	font-size: x-large;
+	text-align: center;
+	background-color:rgba(10, 9, 11, 0.878);
+	text-transform: uppercase;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+	
+.low{
+	font-size: small;
+	text-align: center;
+	background-color:rgba(10, 9, 11, 0.878);
+	padding-left: 50px;
+	padding-right: 50px;
+	text-transform:lowercase
+	
+}
+.ttt{
+	font-size: medium;
+	text-align: center;
+	
+	padding-top: 50px;
+	
+	padding-bottom: 30px;
+}
+.tyt{
+	font-size:medium;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 200px;
+	text-transform:lowercase
+
+	
+	
+	
+}
+.OO{
+	font-size: small;
+	text-align: left;
+	padding-top: 50px;
+	align-items: baseline;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.iii{
+	font-size: small;
+	
+}
+.ty{
+	text-align: center;
+	font-size: 20px;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-right: 20px	
+	
+	
+}
+.trr{
+	
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 10px;
+	font-style: normal;	
+}
+.p{
+	font-size: medium;
+	text-align: justify
+}
+.jm{
+	text-align: right;
+	font-size: medium;
+	padding-left: 800px;
+	padding-bottom: 20px;
+	
+}
